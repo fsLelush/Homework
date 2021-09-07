@@ -93,6 +93,7 @@
             this.Calc_B.TabIndex = 6;
             this.Calc_B.Text = "Рас&чёт";
             this.Calc_B.UseVisualStyleBackColor = true;
+            this.Calc_B.Click += new System.EventHandler(this.Calc_B_Click);
             // 
             // Form1
             // 
