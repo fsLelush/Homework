@@ -28,83 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.A_L = new System.Windows.Forms.Label();
+            this.A_TB = new System.Windows.Forms.TextBox();
+            this.B_L = new System.Windows.Forms.Label();
+            this.B_TB = new System.Windows.Forms.TextBox();
+            this.Res_L = new System.Windows.Forms.Label();
+            this.Res_TB = new System.Windows.Forms.TextBox();
+            this.Calc_B = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // A_L
             // 
-            this.label1.Location = new System.Drawing.Point(46, 68);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.A_L.Location = new System.Drawing.Point(46, 68);
+            this.A_L.Name = "A_L";
+            this.A_L.Size = new System.Drawing.Size(57, 17);
+            this.A_L.TabIndex = 0;
+            this.A_L.Text = "Число &A";
             // 
-            // textBox1
+            // A_TB
             // 
-            this.textBox1.Location = new System.Drawing.Point(109, 65);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.A_TB.Location = new System.Drawing.Point(109, 67);
+            this.A_TB.Name = "A_TB";
+            this.A_TB.Size = new System.Drawing.Size(100, 20);
+            this.A_TB.TabIndex = 1;
             // 
-            // label2
+            // B_L
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 105);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.B_L.AutoSize = true;
+            this.B_L.Location = new System.Drawing.Point(46, 105);
+            this.B_L.Name = "B_L";
+            this.B_L.Size = new System.Drawing.Size(49, 13);
+            this.B_L.TabIndex = 2;
+            this.B_L.Text = "Число &B";
             // 
-            // textBox2
+            // B_TB
             // 
-            this.textBox2.Location = new System.Drawing.Point(109, 102);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.B_TB.Location = new System.Drawing.Point(109, 102);
+            this.B_TB.Name = "B_TB";
+            this.B_TB.Size = new System.Drawing.Size(100, 20);
+            this.B_TB.TabIndex = 3;
             // 
-            // label3
+            // Res_L
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(46, 140);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
+            this.Res_L.AutoSize = true;
+            this.Res_L.Location = new System.Drawing.Point(46, 140);
+            this.Res_L.Name = "Res_L";
+            this.Res_L.Size = new System.Drawing.Size(59, 13);
+            this.Res_L.TabIndex = 4;
+            this.Res_L.Text = "&Pезультат";
             // 
-            // textBox3
+            // Res_TB
             // 
-            this.textBox3.Location = new System.Drawing.Point(109, 137);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 5;
+            this.Res_TB.Location = new System.Drawing.Point(109, 137);
+            this.Res_TB.Name = "Res_TB";
+            this.Res_TB.ReadOnly = true;
+            this.Res_TB.Size = new System.Drawing.Size(100, 20);
+            this.Res_TB.TabIndex = 5;
             // 
-            // button1
+            // Calc_B
             // 
-            this.button1.Location = new System.Drawing.Point(303, 65);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Calc_B.Location = new System.Drawing.Point(303, 65);
+            this.Calc_B.Name = "Calc_B";
+            this.Calc_B.Size = new System.Drawing.Size(75, 23);
+            this.Calc_B.TabIndex = 6;
+            this.Calc_B.Text = "Рас&чёт";
+            this.Calc_B.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(464, 325);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Calc_B);
+            this.Controls.Add(this.Res_TB);
+            this.Controls.Add(this.Res_L);
+            this.Controls.Add(this.B_TB);
+            this.Controls.Add(this.B_L);
+            this.Controls.Add(this.A_TB);
+            this.Controls.Add(this.A_L);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -114,13 +115,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label A_L;
+        private System.Windows.Forms.TextBox A_TB;
+        private System.Windows.Forms.Label B_L;
+        private System.Windows.Forms.TextBox B_TB;
+        private System.Windows.Forms.Label Res_L;
+        private System.Windows.Forms.TextBox Res_TB;
+        private System.Windows.Forms.Button Calc_B;
     }
 }
 
