@@ -18,10 +18,16 @@ namespace Homework
 
         private void Calc_B_Click(object sender, EventArgs e)
         {
-            int A = Convert.ToInt32(A_TB.Text);
-            int B = Convert.ToInt32(B_TB.Text);
-            int Res = A + B;
-            Res_TB.Text = Convert.ToString(Res);
+            try
+            {
+                int A = Convert.ToInt32(A_TB.Text);
+                int B = Convert.ToInt32(B_TB.Text);
+                int Res = A + B;
+                Res_TB.Text = Convert.ToString(Res);
+            } catch (FormatException)
+            {
+                Res_TB.Text = "Введите число, а не символы";
+            }
         }
     }
 }
